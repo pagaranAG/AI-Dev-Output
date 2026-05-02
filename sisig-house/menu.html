@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu - Sisig House</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- NAVIGATION -->
+    <nav>
+        <a href="index.html" class="logo">🔥 SISIG HOUSE NI MANG BER</a>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="branches.html">Branches</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+        <div class="hamburger" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <!-- MENU HEADER -->
+    <section class="hero">
+        <h1>🍽️ Our Complete Menu 🍽️</h1>
+        <p>Explore our delicious Filipino sizzling dishes and refreshing beverages</p>
+    </section>
+
+    <!-- MENU CONTAINER -->
+    <div class="menu-container">
+        <!-- SIZZLING MEALS CATEGORY -->
+        <div class="menu-category">
+            <h2>🔥 Sizzling Meals 🔥</h2>
+            <div class="menu-items">
+                <!-- Item 1 -->
+                <div class="menu-item">
+                    <h3>Classic Pork Sisig</h3>
+                    <p class="description">Minced pork with liver, onions, and chili served on a sizzling plate. Finished with a raw egg.</p>
+                    <div class="price">₱185</div>
+                </div>
+
+                <!-- Item 2 -->
+                <div class="menu-item">
+                    <h3>Bangus (Milkfish) Sisig</h3>
+                    <p class="description">Crispy milkfish flaked with mayo, calamansi, and our secret sisig spice.</p>
+                    <div class="price">₱210</div>
+                </div>
+
+                <!-- Item 3 -->
+                <div class="menu-item">
+                    <h3>Tofu Sisig</h3>
+                    <p class="description">Vegetarian delight! Crispy tofu, mushrooms, peppers, and house sisig sauce.</p>
+                    <div class="price">₱145</div>
+                </div>
+
+                <!-- Item 4 -->
+                <div class="menu-item">
+                    <h3>Tapang Sisig</h3>
+                    <p class="description">Thinly sliced beef jerky (tapa) with onions, liver, and our special sisig blend.</p>
+                    <div class="price">₱195</div>
+                </div>
+
+                <!-- Item 5 -->
+                <div class="menu-item">
+                    <h3>Shrimp Sisig</h3>
+                    <p class="description">Fresh Gulf shrimp sautéed with mayo, calamansi, and spices. Pure seafood bliss!</p>
+                    <div class="price">₱220</div>
+                </div>
+
+                <!-- Item 6 -->
+                <div class="menu-item">
+                    <h3>Squid (Pusit) Sisig</h3>
+                    <p class="description">Tender squid pieces with liver, chili, and our house sisig sauce.</p>
+                    <div class="price">₱215</div>
+                </div>
+
+                <!-- Item 7 -->
+                <div class="menu-item">
+                    <h3>Chicken Inasal</h3>
+                    <p class="description">Marinated chicken grilled to perfection with annatto oil and spices. Served sizzling.</p>
+                    <div class="price">₱170</div>
+                </div>
+
+                <!-- Item 8 -->
+                <div class="menu-item">
+                    <h3>Beef Kare-Kare Sisig</h3>
+                    <p class="description">Beef with peanut sauce, mixed vegetables, and sisig seasoning.</p>
+                    <div class="price">₱200</div>
+                </div>
+
+                <!-- Item 9 -->
+                <div class="menu-item">
+                    <h3>Pork Adobo Sisig</h3>
+                    <p class="description">Classic adobo minced and served on a sizzling plate with vinegar and soy sauce.</p>
+                    <div class="price">₱175</div>
+                </div>
+
+                <!-- Item 10 -->
+                <div class="menu-item">
+                    <h3>Dinuguan Sisig</h3>
+                    <p class="description">Blood stew with pork, offal, and spices. For the adventurous diner!</p>
+                    <div class="price">₱165</div>
+                </div>
+
+                <!-- Item 11 -->
+                <div class="menu-item">
+                    <h3>Caldereta Sisig</h3>
+                    <p class="description">Beef stew with tomato sauce, peppers, and potatoes, served sizzling.</p>
+                    <div class="price">₱190</div>
+                </div>
+
+                <!-- Item 12 -->
+                <div class="menu-item">
+                    <h3>Grilled Tilapia Sisig</h3>
+                    <p class="description">Whole grilled tilapia, flaked and mixed with our house sisig sauce.</p>
+                    <div class="price">₱205</div>
+                </div>
+
+                <!-- Item 13 -->
+                <div class="menu-item">
+                    <h3>Mussels (Tahong) Sisig</h3>
+                    <p class="description">Fresh mussels sautéed with garlic, onions, and sisig spice blend.</p>
+                    <div class="price">₱225</div>
+                </div>
+
+                <!-- Item 14 -->
+                <div class="menu-item">
+                    <h3>Pork Chops Sisig</h3>
+                    <p class="description">Grilled pork chops chopped and sizzled with our special sauce and spices.</p>
+                    <div class="price">₱200</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- DRINKS CATEGORY -->
+        <div class="menu-category">
+            <h2>🥤 Unique Drinks 🥤</h2>
+            <div class="menu-items">
+                <!-- Drink 1 -->
+                <div class="menu-item">
+                    <h3>Fresh Calamansi Juice</h3>
+                    <p class="description">Freshly squeezed Filipino citrus juice. Sweet, tangy, and refreshing!</p>
+                    <div class="price">₱60</div>
+                </div>
+
+                <!-- Drink 2 -->
+                <div class="menu-item">
+                    <h3>Ube Latte</h3>
+                    <p class="description">Creamy purple yam flavor blended with premium Barako coffee.</p>
+                    <div class="price">₱95</div>
+                </div>
+
+                <!-- Drink 3 -->
+                <div class="menu-item">
+                    <h3>Barako Coffee</h3>
+                    <p class="description">Strong, bold, and aromatic - the coffee of true Filipinos!</p>
+                    <div class="price">₱75</div>
+                </div>
+
+                <!-- Drink 4 -->
+                <div class="menu-item">
+                    <h3>Salabat (Ginger Tea)</h3>
+                    <p class="description">Warm ginger infusion with brown sugar. Perfect complement to spicy sisig.</p>
+                    <div class="price">₱50</div>
+                </div>
+
+                <!-- Drink 5 -->
+                <div class="menu-item">
+                    <h3>Buko (Coconut) Juice</h3>
+                    <p class="description">Fresh young coconut juice - nature's sports drink with electrolytes!</p>
+                    <div class="price">₱70</div>
+                </div>
+
+                <!-- Drink 6 -->
+                <div class="menu-item">
+                    <h3>Mango Juice</h3>
+                    <p class="description">Sweet mango blended fresh. Made from the best Philippine mangoes.</p>
+                    <div class="price">₱65</div>
+                </div>
+
+                <!-- Drink 7 -->
+                <div class="menu-item">
+                    <h3>Iced Tea (Homemade)</h3>
+                    <p class="description">Filipino-style iced tea with pandan leaves and brown sugar.</p>
+                    <div class="price">₱55</div>
+                </div>
+
+                <!-- Drink 8 -->
+                <div class="menu-item">
+                    <h3>Banana Cue Smoothie</h3>
+                    <p class="description">Sautéed banana with caramel smoothie - dessert in a glass!</p>
+                    <div class="price">₱85</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- HALO-HALO VARIETIES -->
+        <div class="menu-category">
+            <h2>🍧 Halo-Halo Varieties 🍧</h2>
+            <div class="menu-items">
+                <!-- Halo-Halo 1 -->
+                <div class="menu-item">
+                    <h3>Classic Halo-Halo</h3>
+                    <p class="description">Traditional blend of shaved ice, beans, gelatin, fruits, and leche flan.</p>
+                    <div class="price">₱120</div>
+                </div>
+
+                <!-- Halo-Halo 2 -->
+                <div class="menu-item">
+                    <h3>Premium Halo-Halo with Ice Cream</h3>
+                    <p class="description">Classic halo-halo topped with a generous scoop of purple yam ice cream.</p>
+                    <div class="price">₱150</div>
+                </div>
+
+                <!-- Halo-Halo 3 -->
+                <div class="menu-item">
+                    <h3>Ube Halo-Halo</h3>
+                    <p class="description">Purple yam flavored shaved ice with ube beans, ube jam, and ube ice cream.</p>
+                    <div class="price">₱135</div>
+                </div>
+
+                <!-- Halo-Halo 4 -->
+                <div class="menu-item">
+                    <h3>Mango Halo-Halo</h3>
+                    <p class="description">Tropical mango flavored ice with fresh mango chunks and mango ice cream.</p>
+                    <div class="price">₱135</div>
+                </div>
+
+                <!-- Halo-Halo 5 -->
+                <div class="menu-item">
+                    <h3>Strawberry Halo-Halo</h3>
+                    <p class="description">Pink strawberry shaved ice with fresh berries and strawberry ice cream.</p>
+                    <div class="price">₱135</div>
+                </div>
+
+                <!-- Halo-Halo 6 -->
+                <div class="menu-item">
+                    <h3>Chocolate Halo-Halo</h3>
+                    <p class="description">Rich chocolate ice with chocolate fudge, brownies, and chocolate ice cream.</p>
+                    <div class="price">₱140</div>
+                </div>
+
+                <!-- Halo-Halo 7 -->
+                <div class="menu-item">
+                    <h3>Mini Halo-Halo</h3>
+                    <p class="description">Perfect for kids or light appetites. Same flavors, smaller portion.</p>
+                    <div class="price">₱80</div>
+                </div>
+
+                <!-- Halo-Halo 8 -->
+                <div class="menu-item">
+                    <h3>Vegan Halo-Halo</h3>
+                    <p class="description">Dairy-free halo-halo with coconut milk ice cream and fresh fruits.</p>
+                    <div class="price">₱125</div>
+                </div>
+
+                <!-- Halo-Halo 9 -->
+                <div class="menu-item">
+                    <h3>Family Pack Halo-Halo</h3>
+                    <p class="description">Large shareable halo-halo perfect for 3-4 people. Variety of flavors.</p>
+                    <div class="price">₱350</div>
+                </div>
+
+                <!-- Halo-Halo 10 -->
+                <div class="menu-item">
+                    <h3>Dessert Combo (Halo-Halo + Pastry)</h3>
+                    <p class="description">Halo-halo served with a freshly baked pastry of your choice.</p>
+                    <div class="price">₱165</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- MENU NOTES -->
+        <div class="promo-banner" style="margin-top: 3rem;">
+            <h3>📝 Menu Notes 📝</h3>
+            <p>All sizzling meals are served piping hot on cast-iron plates. Halo-halo is best enjoyed immediately. Customizations available upon request. Prices may vary by branch.</p>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>🔥 SISIG HOUSE 🔥</h4>
+                <p>Premium Filipino Sizzling Restaurant</p>
+            </div>
+
+            <div class="footer-section">
+                <h4>Follow Us</h4>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/sisighouseph" target="_blank">Facebook</a>
+                    <a href="https://www.instagram.com/sisighouseph" target="_blank">Instagram</a>
+                    <a href="https://maps.google.com/?q=14.3091,121.0274" target="_blank">Google Maps</a>
+                </div>
+            </div>
+
+            <div class="footer-section">
+                <h4>Contact</h4>
+                <div class="contact-info">
+                    <p>📞 +63 (2) 1234-5678</p>
+                    <p>✉️ info@sisighouse.com</p>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 Sisig House. All rights reserved. | Made with ❤️ for Filipino Food Lovers</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
